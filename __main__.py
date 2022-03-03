@@ -19,9 +19,6 @@ def main() -> None:
 		username = assistant.take_command()
 		assistant.speak("Password.")
 		password = assistant.take_command()
-
-		# if not (username and password):
-			# username, password = assistant.take_command(), assistant.take_command()
 		
 		assistant.recognize_user(username, password)
 
