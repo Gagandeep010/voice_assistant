@@ -11,7 +11,7 @@ class AssistantDatabase:
             host="localhost",
             port=3306,
             user="root",
-            password="123QWERTYUIOP123!",
+            password="1234",
             database="assistant"
         )
         self.cursor: MySQLCursor = self.connector.cursor()
